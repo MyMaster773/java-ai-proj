@@ -1,0 +1,60 @@
+* {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+.label { -fx-text-fill: #172033; }
+.root { -fx-background-color: #f5f7fa; -fx-text-fill: #172033; }
+.shell { -fx-background-color: #f5f7fa; }
+.topbar { -fx-background-color: #ffffff; -fx-border-color: #e2e7ef; -fx-border-width: 0 0 1 0; -fx-padding: 16 28; }
+.brand { -fx-font-size: 18px; -fx-font-weight: 800; -fx-text-fill: #13213b; }
+.eyebrow { -fx-font-size: 11px; -fx-font-weight: 800; -fx-text-fill: #55708e; -fx-letter-spacing: 1px; }
+.title { -fx-font-size: 30px; -fx-font-weight: 800; -fx-text-fill: #13213b; }
+.subtitle { -fx-font-size: 14px; -fx-text-fill: #637189; }
+.section-title { -fx-font-size: 17px; -fx-font-weight: 800; -fx-text-fill: #172033; }
+.panel { -fx-background-color: #ffffff; -fx-background-radius: 8; -fx-border-color: #e0e6ee; -fx-border-radius: 8; -fx-padding: 20; }
+.role-panel { -fx-background-color: #ffffff; -fx-background-radius: 8; -fx-border-color: #dce3ec; -fx-border-radius: 8; -fx-padding: 22; }
+.role-panel:hover { -fx-border-color: #2e6de6; -fx-effect: dropshadow(gaussian, rgba(20,46,90,0.12), 14, 0.12, 0, 4); }
+.role-title { -fx-font-size: 18px; -fx-font-weight: 800; -fx-text-fill: #172033; }
+.role-copy { -fx-font-size: 13px; -fx-text-fill: #637189; -fx-wrap-text: true; }
+.button { -fx-background-radius: 6; -fx-padding: 11 16; -fx-font-weight: 700; -fx-cursor: hand; }
+.primary { -fx-background-color: #2164d6; -fx-text-fill: white; }
+.primary:hover { -fx-background-color: #174fae; }
+.secondary { -fx-background-color: #edf2f8; -fx-text-fill: #29415d; }
+.secondary:hover { -fx-background-color: #dfe8f2; }
+.danger { -fx-background-color: #fff0f0; -fx-text-fill: #b42318; }
+.field { -fx-background-color: white; -fx-border-color: #cfd8e3; -fx-border-radius: 6; -fx-background-radius: 6; -fx-padding: 12; }
+.field:focused { -fx-border-color: #2164d6; -fx-border-width: 2; }
+.muted { -fx-text-fill: #637189; }
+.money { -fx-font-size: 22px; -fx-font-weight: 800; -fx-text-fill: #172033; }
+.balance { -fx-background-color: #eef6f1; -fx-background-radius: 6; -fx-padding: 12 15; }
+.balance-label { -fx-text-fill: #33734d; -fx-font-size: 12px; -fx-font-weight: 700; }
+.balance-value { -fx-text-fill: #21613c; -fx-font-size: 22px; -fx-font-weight: 800; }
+.menu-item { -fx-background-color: #ffffff; -fx-border-color: #e0e6ee; -fx-border-radius: 7; -fx-background-radius: 7; -fx-padding: 15; }
+.menu-item:hover { -fx-border-color: #aac4ee; }
+.menu-item-unavailable { -fx-opacity: 0.48; }
+.item-name { -fx-font-size: 15px; -fx-font-weight: 700; }
+.item-category { -fx-font-size: 11px; -fx-text-fill: #637189; }
+.pill { -fx-background-color: #e8f0ff; -fx-background-radius: 20; -fx-padding: 5 9; -fx-text-fill: #2458a8; -fx-font-size: 11px; -fx-font-weight: 800; }
+.status-placed { -fx-background-color: #edf2f8; -fx-text-fill: #53677f; }
+.status-preparing { -fx-background-color: #fff4dc; -fx-text-fill: #9a6500; }
+.status-ready { -fx-background-color: #e7f6ec; -fx-text-fill: #217346; }
+.status-collected { -fx-background-color: #e7edf5; -fx-text-fill: #53677f; }
+.error { -fx-background-color: #fff1f1; -fx-text-fill: #b42318; -fx-background-radius: 6; -fx-padding: 12; -fx-font-weight: 700; }
+.success { -fx-background-color: #eaf7ee; -fx-text-fill: #21613c; -fx-background-radius: 6; -fx-padding: 12; -fx-font-weight: 700; }
+.table-row-cell { -fx-padding: 10 0; -fx-border-color: #edf0f4; -fx-border-width: 0 0 1 0; }
+.chart { -fx-background-color: transparent; }
+.chart-title { -fx-text-fill: #172033; -fx-font-size: 17px; -fx-font-weight: 800; }
+.chart-title .text { -fx-fill: #172033; }
+.axis-label { -fx-text-fill: #53677f; }
+.axis-label .text { -fx-fill: #53677f; }
+.axis-tick-label { -fx-text-fill: #53677f; }
+.axis-tick-label .text { -fx-fill: #53677f; }
+.axis { -fx-tick-label-fill: #53677f; }
+.axis .tick-label { -fx-text-fill: #53677f; -fx-fill: #53677f; }
+.chart-legend { -fx-background-color: transparent; }
+.chart-legend-item { -fx-text-fill: #172033; }
+.chart-legend-item .label { -fx-text-fill: #172033; }
+.chart-legend-item .text { -fx-fill: #172033; }
+.chart-pie-label { -fx-fill: #172033; }
+.chart-pie-label-line { -fx-stroke: #8a98aa; }
+.scroll-pane { -fx-background-color: transparent; -fx-background: transparent; }
+.scroll-pane > .viewport { -fx-background-color: transparent; }
